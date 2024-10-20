@@ -664,7 +664,7 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
         };
       }> &
       Schema.Attribute.SetMinMaxLength<{
-        minLength: 5;
+        minLength: 4;
       }>;
     description: Schema.Attribute.Blocks &
       Schema.Attribute.Required &
